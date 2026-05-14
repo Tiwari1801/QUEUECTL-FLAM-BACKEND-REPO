@@ -4,7 +4,7 @@ import json
 import os
 from pathlib import Path
 
-CONFIG_PATH = Path.home() / ".queuectl_config.json"
+CONFIG_PATH = Path.home() / ".queuectl_config.jso"
 
 DEFAULTS = {
     "max_retries": 3,
